@@ -5,6 +5,7 @@ const {
   isAlpha,
   isAlphanumeric,
 } = require("validator");
+// brings in the prebuilt methods from validator.npm
 
 const checkIsEmpty = (target) => (isEmpty(target) ? true : false);
 
@@ -24,3 +25,8 @@ module.exports = {
   checkIsAlpha,
   checkIsAlphanumeric,
 };
+
+
+//this page allows us to create variables that look for specific string characters
+// Ternary was used to shorten the length of code to make it easier to understand.
+// once we made specific functions, we export them for further use.

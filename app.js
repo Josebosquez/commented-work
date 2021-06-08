@@ -20,3 +20,8 @@ app.use("/api/user", userRouter);
 // the path in which we allow the user to access the userRouter file and its associated CRUD.
 module.exports = app;
 //allows the system to use app globally.
+
+
+
+
+// not going to talk about package.json or package-lock.json

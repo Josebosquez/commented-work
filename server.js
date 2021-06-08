@@ -1,4 +1,5 @@
 require("dotenv").config();
+// inits env file.
 
 const mongoose = require("mongoose");
 
@@ -20,3 +21,5 @@ mongoose
   .catch((e) => {
     console.log(e);
   });
+// process.env.mongo_db allows us to utilize a env for our jwt. 
+// this hw is missing the env file so i cant go to much in depth.
